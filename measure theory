@@ -1,0 +1,24 @@
+measure theory notes
+1.1 Sets
+About power sets  : When talking about sets of sets. We denote the collection
+of subsets, or power set, of a set X by P(X). The notation 2^x is also used.
+(that's to say you have the subsets with 0  or 1 or 2 ... n elements . if you sum up n choose 0 , n choose 1 , n choose 2 ,... n choose n , and the result is 2^x.  where n is the number of elements in x. 
+another intuition is the fact each element has 2 possible results , either being selected ,or not).
+ 
+About de morgan's law. 
+E complement = X \ E. ( the parts belongs to x but not E , where E ⊂ X).
+In n elements case: 
+The complement of (U Ei). where (i ⊂ N )  If we pick an element a ⊂ x/E1 , and intersects it with b ⊂ x/E2,...(n ⊂ x/En ).
+Image you have a whole rectangular as your sample space. Inside you have some complicates sets intersect with each other randomly. Now all areas are white before any action is taken. After an arbitrary element a ⊂ x/E1 is selected . Traversing through index, we find first the area outside set E1 complement and inside X becomes black. Then as E2 complement intersection comes, the area of E2  previously ⊂ X/E1 becomes white. As this process goes, the central area shrinks to white gradually . 
+ 
+Index set notation :
+We say that a collection
+C = {Eα ⊂ X : α ∈ I}
+of subsets of a set X, indexed by a set I, covers E ⊂ X if
+[
+α∈I
+Eα ⊃ E.
+The collection C is disjoint if Eα ∩ Eβ = ∅ for α not equal to β. This is also called pairwise disjoints. 
+The Cartesian product, X × Y = {(x, y) : x ∈ X, y ∈ Y } .
+
+1.2. Topological spaces
