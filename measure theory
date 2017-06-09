@@ -22,3 +22,19 @@ The collection C is disjoint if Eα ∩ Eβ = ∅ for α not equal to β. This i
 The Cartesian product, X × Y = {(x, y) : x ∈ X, y ∈ Y } .
 
 1.2. Topological spaces
+From above we have the basic concepts of subsets.
+definition:
+A topological space is an ordered pair (X, τ), where X is a set and τ is a collection of subsets of X, satisfying the following axioms:[4]
+1. The empty set and X itself belong to τ.   ( ∅, X ∈ T ;) 
+2.Any (finite or infinite) union of members of τ still belongs to τ. 
+ if {Uα ∈ T : α ∈ I} is an arbitrary collection of open sets, then their
+union
+[
+α∈I
+Union Uα ∈ T is open;
+3.The intersection of any finite number of members of τ still belongs to τ.
+(c) if {Ui ∈ T : i = 1, 2, . . . , N} is a finite collection of open sets, then their
+intersection
+Intersection Ui ∈ T is open .
+The complement of an open set in X is called a closed set, and T is called a topology
+on X.
