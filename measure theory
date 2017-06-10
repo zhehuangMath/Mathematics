@@ -24,7 +24,7 @@ The Cartesian product, X × Y = {(x, y) : x ∈ X, y ∈ Y } .
 1.2. Topological spaces
 From above we have the basic concepts of subsets.
 definition:
-A topological space is an ordered pair (X, τ), where X is a set and τ is a collection of subsets of X, satisfying the following axioms:[4]
+A topological space is an ordered pair (X, τ), where X is a set and τ is a collection of subsets of X, if the following axioms hold:
 1. The empty set and X itself belong to τ.   ( ∅, X ∈ T ;) 
 2.Any (finite or infinite) union of members of τ still belongs to τ. 
  if {Uα ∈ T : α ∈ I} is an arbitrary collection of open sets, then their
@@ -38,3 +38,8 @@ intersection
 Intersection Ui ∈ T is open .
 The complement of an open set in X is called a closed set, and T is called a topology
 on X.
+Examples ：
+ 1 Dimension Euclidean Space ‘s open interval from a T on R
+ 2. X= {1,2,3,4} from property 1 . {∅ must be contained , and {1,2,3,4} must be contained}
+    t= {∅,{1,2,3,4}, {2} {1,2}  {1,2 ,3 } { 2,3} { 3,4} } from instance.
+  3. Any metirc space is a Topological space. 
