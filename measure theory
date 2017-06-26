@@ -10,7 +10,7 @@ E complement = X \ E. ( the parts belongs to x but not E , where E ⊂ X).
 In n elements case: 
 The complement of (U Ei). where (i ⊂ N )  If we pick an element a ⊂ x/E1 , and intersects it with b ⊂ x/E2,...(n ⊂ x/En ).
 Image you have a whole rectangular as your sample space. Inside you have some complicates sets intersect with each other randomly. Now all areas are white before any action is taken. After an arbitrary element a ⊂ x/E1 is selected . Traversing through index, we find first the area outside set E1 complement and inside X becomes black. Then as E2 complement intersection comes, the area of E2  previously ⊂ X/E1 becomes white. As this process goes, the central area shrinks to white gradually . 
- 
+
 Index set notation :
 We say that a collection
 C = {Eα ⊂ X : α ∈ I}
@@ -43,3 +43,12 @@ Examples ：
  2. X= {1,2,3,4} from property 1 . {∅ must be contained , and {1,2,3,4} must be contained}
     t= {∅,{1,2,3,4}, {2} {1,2}  {1,2 ,3 } { 2,3} { 3,4} } from instance.
   3. Any metirc space is a Topological space. 
+1.3 extend real line . Not that important. 
+1.4 measure 
+(1) it is an extension of length ,  u{[a,b]}= b-a.
+(2)u:p(R)->R+U{+infinite} note that R+ R^+ denotes the real positive numbers. u denotes the measure.
+(3) for a set A in R.  A+x={x+y where y in A}.
+For all A in R , all X in R, U (A+x)= U(A).
+(4)
+Suppose X is a set and P(x) is its power set, which denotes the collection of all subsets of X.  A measure u on x is a function mapping from p(x) ->[0, infinite].
+s.t u(∅)=0;
